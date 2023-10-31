@@ -5,6 +5,9 @@
 ## 설치
 `npm create vue`
 
+## 시작
+`npm run dev`
+
 
 ## .eslintrc.cjs / .prettierrc.json 설치
 crtl + , : save 검색 후 format on save 체크

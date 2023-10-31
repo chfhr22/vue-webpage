@@ -292,44 +292,7 @@
     background: url(../img/imgbg02.jpg) no-repeat center / cover;
 }
 
-/* card */
-.card__inner {
-    display: flex;
-    justify-content: space-between;
-}
 
-.card {
-    width: 32%;
-    background-color: #f5f5f5;
-}
-
-.card__body {
-    padding: 24px;
-}
-
-.card__body .title {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.card__body .desc {
-    font-size: 18px;
-    color: #666;
-    line-height: 1.4;
-    margin-bottom: 20px;
-    font-weight: 300;
-
-    /* 네줄 */
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-}
-
-.card__body .btn {
-    color: #222;
-}
 
 /* banner */
 .banner__inner {
