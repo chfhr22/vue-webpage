@@ -8,7 +8,7 @@
         <div class="card__inner container">
             <article class="card" v-for="(card, key) in cardInfo" :key="key">
                 <figure class="card__header">
-                    <img :src="card.img" alt="card.title" />
+                    <img {{card.img}} alt="card.title" />
                 </figure>
                 <div class="card__body">
                     <h3 class="title">{{ card.title }}</h3>
@@ -41,17 +41,17 @@ export default {
         return {
             cardInfo: [
                 {
-                    img: "./src/assets/img/cardbg01.jpg",
+                    img: require('../assets/img/cardbg01.jpg'),
                     title: "웹표준 사이트 만들기",
                     desc: "사이트를 만들기 위한 기초 강의"
                 },
                 {
-                    img: "./src/assets/img/cardbg02.jpg",
+                    img: require("../assets/img/cardbg02.jpg"),
                     title: "반응형 사이트 만들기",
                     desc: "사이트를 만들기 위한 기초 강의"
                 },
                 {
-                    img: "./src/assets/img/cardbg03.jpg",
+                    img: require("../assets/img/cardbg03.jpg"),
                     title: "페럴렉스 사이트 만들기",
                     desc: "사이트를 만들기 위한 기초 강의"
                 }
